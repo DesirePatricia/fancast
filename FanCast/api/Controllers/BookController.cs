@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Supabase;
-using Supabase.Gotrue; // For auth if needed
+using FanCast.Api.Models;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -74,9 +74,3 @@ public class BookController : ControllerBase
     }
 }
 
-public class Book
-{
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public string Img { get; set; }
-}
