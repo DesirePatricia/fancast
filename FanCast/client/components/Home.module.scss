@@ -10,6 +10,8 @@
             0 1px #FB593F,
             0 -1px #FB593F;
     margin: 0;
+    margin-top: 30px;
+    text-align: left;
 }
 
 .subtitle {
@@ -17,6 +19,8 @@
     color:#FB593F;
     font-size: 32px;
     margin: 0;
+    margin-top: -30px;
+    text-align: left;
 }
 
 .containerCenter{
@@ -77,4 +81,21 @@
     height: 100%;
     object-fit: cover;
     /* ensures image fills ellipse */
+}
+
+.footer{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow:
+        1px 0 #2D7576,
+        -1px 0 #2D7576,
+        0 1px #2D7576,
+        0 -1px #2D7576;
+    &Period{
+        color:#2D7576;
+        text-shadow: none;
+        padding-bottom: 10px;
+    }
 }

@@ -1,12 +1,13 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 export default function Books() {
     const [books, setBooks] = useState([]);
 
     useEffect(() => {
-        fetch("/api/book")
+        fetch(`${API_URL}/book`)
             .then((res) => res.json())
             .then((data) => setBooks(data))
             .catch(console.error);

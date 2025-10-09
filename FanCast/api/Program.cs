@@ -23,6 +23,7 @@ builder.Services.AddCors(options =>
     });
 });
 
+
 string supabaseUrl = Environment.GetEnvironmentVariable("SUPABASE_URL");
 string supabaseKey = Environment.GetEnvironmentVariable("SUPABASE_KEY");
 
@@ -34,4 +35,5 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 app.MapControllers();
+app.UseCors();
 app.Run();

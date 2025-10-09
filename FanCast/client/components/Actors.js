@@ -1,13 +1,13 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 export default function Actors() {
     const [actors, setActors] = useState([]);
 
     useEffect(() => {
-        // Example: fetch from your API
-        fetch("/api/actor")
+        fetch(`${API_URL}/actor`)
             .then((res) => res.json())
             .then((data) => setActors(data))
             .catch(console.error);
