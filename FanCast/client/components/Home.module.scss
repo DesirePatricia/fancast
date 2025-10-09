@@ -1,0 +1,80 @@
+/* app/Home.module.css */
+.title {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 90px;
+    font-weight: 900;
+    text-shadow:
+            1px 0 #FB593F,
+            -1px 0 #FB593F,
+            0 1px #FB593F,
+            0 -1px #FB593F;
+    margin: 0;
+}
+
+.subtitle {
+    font-family: 'Gloock', sans-serif;
+    color:#FB593F;
+    font-size: 32px;
+    margin: 0;
+}
+
+.containerCenter{
+    align-content: center;
+}
+
+.ellipse {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    overflow: hidden;
+    &Outside{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        overflow: hidden;
+        justify-items: center;
+        align-content: center;
+    }
+    &Orange{
+        @extend .ellipse;
+        border: 1px solid #FB593F;
+    }
+
+    &OutsideOrange {
+        @extend .ellipseOutside;
+        border: 1px solid #FB593F;
+    }
+
+    &Blue{
+        @extend .ellipse;
+        border: 1px solid #203DB9;
+    }
+    &OutsideBlue {
+        @extend .ellipseOutside;
+        border: 1px solid #203DB9;
+    }
+    &Purple{
+        @extend .ellipse;
+        border: 1px solid #9037C3;
+    }
+    &OutsidePurple {
+        @extend .ellipseOutside;
+        border: 1px solid #9037C3;
+    }
+    &Green{
+        @extend .ellipse;
+        border: 1px solid #2D7576;
+    }
+    &OutsideGreen {
+        @extend .ellipseOutside;
+        border: 1px solid #2D7576;
+    }
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* ensures image fills ellipse */
+}

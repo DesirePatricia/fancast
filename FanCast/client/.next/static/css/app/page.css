@@ -1,0 +1,69 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[7].use[5]!./components/Home.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* app/Home.module.css */
+.Home_title__h2aSz {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 90px;
+  font-weight: 900;
+  text-shadow: 1px 0 #FB593F, -1px 0 #FB593F, 0 1px #FB593F, 0 -1px #FB593F;
+  margin: 0;
+}
+
+.Home_subtitle__tfXcC {
+  font-family: "Gloock", sans-serif;
+  color: #FB593F;
+  font-size: 32px;
+  margin: 0;
+}
+
+.Home_containerCenter__7SR1Z {
+  align-content: center;
+}
+
+.Home_ellipse__FpfhL, .Home_ellipseGreen__d9FfH, .Home_ellipsePurple__266Bx, .Home_ellipseBlue__7XuTh, .Home_ellipseOrange__x06fX {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.Home_ellipseOutside__Z_ngS, .Home_ellipseOutsideGreen__r38rs, .Home_ellipseOutsidePurple__KrgCO, .Home_ellipseOutsideBlue__Vmxk1, .Home_ellipseOutsideOrange__G1PvS {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-items: center;
+  align-content: center;
+}
+.Home_ellipseOrange__x06fX {
+  border: 1px solid #FB593F;
+}
+.Home_ellipseOutsideOrange__G1PvS {
+  border: 1px solid #FB593F;
+}
+.Home_ellipseBlue__7XuTh {
+  border: 1px solid #203DB9;
+}
+.Home_ellipseOutsideBlue__Vmxk1 {
+  border: 1px solid #203DB9;
+}
+.Home_ellipsePurple__266Bx {
+  border: 1px solid #9037C3;
+}
+.Home_ellipseOutsidePurple__KrgCO {
+  border: 1px solid #9037C3;
+}
+.Home_ellipseGreen__d9FfH {
+  border: 1px solid #2D7576;
+}
+.Home_ellipseOutsideGreen__r38rs {
+  border: 1px solid #2D7576;
+}
+
+.Home_image__DMqno {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* ensures image fills ellipse */
+}
